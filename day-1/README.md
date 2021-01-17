@@ -3,8 +3,6 @@
 * Distributed: 19 January, 2021
 * Due: 24 January, 2021
 
-## Point values
-
 ---
 
 <div class="alert alert-block alert-info">
@@ -28,33 +26,36 @@ For those who just want to get to work, consult the `Instructional Materials` se
   * [Media](#Media)
   * [Worksheets and activities](#Worksheets-and-activities)
   * [Lab](#Lab)
-* [Setup](#Setup)
-  * [The "terminal"](#The-"terminal")
-    * [What is a "terminal"?](#What-is-a-"terminal"?)
-    * [Using our terminal](#Using-our-terminal)
-  * [GitHub: Part 0](#GitHub:-Part-1)
-    * [Activity 0: Securing your GitHub account](#Activity-0:-Securing-your-GitHub-account)
-    * [Activity 1: "Cloning" a repository](#Activity-1:-"Cloning"-a-repository)
-  * [The terminal revisited](#The-terminal-revisited)
-    * [Activity 2: Terminal commands](#Activity-2:-Terminal-commands)
-  * [Markdown](#Markdown)
-    * [Activity 3: Basic markdown](#Activity-3:-Basic-markdown)
+* [The "terminal"](#The-"terminal")
+  * [What is a "terminal"?](#What-is-a-"terminal"?)
+  * [Using our terminal](#Using-our-terminal)
+* [GitHub: Part 0](#GitHub:-Part-0)
+  * [Worksheet 0: Securing your GitHub account](#Worksheet-0:-Securing-your-GitHub-account)
+  * [Worksheet 1: "Cloning" a repository](#Worksheet-1:-"Cloning"-a-repository)
+* [The terminal revisited](#The-terminal-revisited)
+  * [Worksheet 2: Terminal commands](#Worksheet-2:-Terminal-commands)
+* [Markdown](#Markdown)
+  * [Worksheet 3: Basic markdown](#Worksheet-3:-Basic-markdown)
 * [Final activity: _The Maltese Python_](#Final-activity:-The-Maltese-Python)
 * [Take a break](#Take-a-break)
   * [GatorGrader](#GatorGrader)
-    * [Activity 4: Checking your work](#Activity-4:-Checking-your-work)
+    * [Worksheet 4: Checking your work](#Worksheet-4:-Checking-your-work)
   * [GitHub: Part 1](#GitHub:-Part-1)
-    * [Activity 5: "Committing" to a repository](#Activity-2:-"Committing"-to-a-repository)
+    * [Worksheet 5: "Committing" to a repository](#Worksheet-5:-"Committing"-to-a-repository)
 
-### Python basics
+### Python basics: values and variables
 
+* [Worksheet 0: Expressions](python-basics/0_week-0-worksheet-expressions.ipynb)
+* [Worksheet 1: Assignments](python-basics/1_week-0-worksheet-assignments.ipynb)
+* [Worksheet 2: Data types](python-basics/2_week-0-worksheet-data-types.ipynb)
 
+* [Final activity: _The Lousy Lottery_](python-basics/)
 
 ## Overview
 
 ---
 
-This week, we explore setting up the tools, technologies, and platforms that will guide our work this semester. These include:
+Starting the week, we explore setting up the tools, technologies, and platforms that will guide our work this semester. These include:
 
 * The "terminal"
 * GitHub
@@ -63,6 +64,8 @@ This week, we explore setting up the tools, technologies, and platforms that wil
 * JupyterLab
 * Markdown
 * GatorGrader
+
+We'll also start looking at the basic of the Python programming language with a couple of detours into how and why programming languages and computational systems work.
 
 Follow the links below to access instructional materials for the week. Each `.ipynb` file is a `Jupyter notebook` (more on this later) which contains discussion, instruction, and activities -- some meant for use during class video sessions, others to be complete on your own. Simply double-click on it in the file tree to the right to open it in a new tab.
 
@@ -131,32 +134,6 @@ Click the images below the headers to launch videos.
 * [Week 0 - Worksheet 4 - GatorGrader](platforms/4_week-0-worksheet-gatorgrader.ipynb)
 * [Week 0 - Worksheet 5 - "Committing" to a repository](platforms/5_week-0-worksheet-github-push.ipynb)
 
-### Final activities
-
-#### Platforms: _The Maltese Python_
-
-<p align = "center">
-    <img src = "https://cs.allegheny.edu/sites/dluman/cmpsc100/cmpsc-100-maltese-python.png" alt="It's a fake!" width = "400">
-</p>
-
-> My way of learning is to heave a wild and unpredictable monkey-wrench into the machinery.
->
-> Dashiell Hammett, _The Maltese Falcon_
-
-In 2021 a professor attempted to boggle their students' minds by sending them a game in which they hid a Golden Python whose scales were conjured from digital text—an enterprising computer system seized this priceless token and the fate of the Maltese Python remains a mystery to this day...
-
-It is hidden somewhere in the `/mansion`, but it is up to _you_ to find and `claim` it.
-
-* [Final activity: _The Maltese Python_](platforms/6_week-0-platforms-final-activity.ipynb)
-
-#### Python basics: _The Lousy Lottery_
-
-<p align = "center">
-CANADA PIC TRIP
-</p>
-
-* [Final activity: _The Lousy Lottery_](basic-python/4_week-0-basic-python-final-activity.ipynb)
-
 ## The "terminal"
 
 ---
@@ -217,11 +194,11 @@ The quasi portmanteau "GitHub" is really what it says: a hub for `git` repositor
 
 One of GitHub's services is something called GitHub Classroom -- a tool that allows me to create assignments, give them to you, and enables you to create your own complete copy of them in a [repository](#"Repositories").
 
-### Activity 0: Securing your GitHub account
+### Worksheet 0: Securing your GitHub account
 
 * [Week 0 - Worksheet 0 - Securing your GitHub account](platforms/0_week-0-worksheet-ssh-keys.md)
 
-### Activity 1: "Cloning" a repository
+### Worksheet 1: "Cloning" a repository
 
 * [Week 0 - Worksheet 1 - "Cloning" a repository](platforms/0_week-0-worksheet-github-clone.md)
 
@@ -256,7 +233,7 @@ In this course, you may learn some more handy terminal commands. However, we gen
 * Shows the directory you're currently in
 * Easy way to remember: `Where am I?`
 
-### Activity 2: Terminal commands
+### Worksheet 2: Terminal commands
 
 The following worksheet provides some guided practice with these basic terminal commands.
 
@@ -270,15 +247,27 @@ While we are the Department of Computer Science, a large majority of our work is
 
 The following worksheet introduces and provides an opportunity to practice with basic markdown.
 
+### Worksheet 3: Markdown
+
 * [Week 0 - Worksheet 3 - Markdown](platforms/3_week-0-worksheet-markdown.ipynb)
 
-## Lab activity: _The Maltese Python_
+## Final activity: _The Maltese Python_
 
 ---
 
-More advanced practice with the terminal and Markdown.
+<p align = "center">
+    <img src = "https://cs.allegheny.edu/sites/dluman/cmpsc100/cmpsc-100-maltese-python.png" alt="It's a fake!" width = "400">
+</p>
 
-* See the `platform` activity under [final activtiies](#Final-activities) under [instructional materials](#Instructional-materials)
+> My way of learning is to heave a wild and unpredictable monkey-wrench into the machinery.
+>
+> Dashiell Hammett, _The Maltese Falcon_
+
+In 2021 a professor attempted to boggle their students' minds by sending them a game in which they hid a Golden Python whose scales were conjured from digital text—an enterprising computer system seized this priceless token and the fate of the Maltese Python remains a mystery to this day...
+
+It is hidden somewhere in the `/mansion`, but it is up to _you_ to find and `claim` it.
+
+* [Final activity: _The Maltese Python_](platforms/6_week-0-platforms-final-activity.ipynb)
 
 ## Take a break
 
@@ -290,11 +279,15 @@ Well, after this -- knowing that the first half of your work is submitted.
 
 GatorGrader is an automated tool that allows you to grade your assignments according to specifications that I set out in the [grading criteria](#Grading-criteria). The following worksheet teaches you how to run it:
 
+#### Worksheet 4: Checking your work
+
 * [Week 0 - Worksheet 4 - GatorGrader](platforms/4_week-0-worksheet-gatorgrader.ipynb)
 
 ### GitHub: Part 1
 
-The final step in turning or saving assignments is to `commit` (or `push`) the content to GitHub. Complete the steps in this worksheet to learn how to complete the process:
+The final step in turning or saving assignments is to `commit` (or `push`) the content to GitHub. Complete the steps in the following worksheet to learn how to complete the process.
+
+#### Worksheet 5: "Committing" to a repository
 
 * [Week 0 - Worksheet 5 - "Committing" to a repository](platforms/5_week-0-worksheet-github-push.ipynb)
 
@@ -305,6 +298,3 @@ The final step in turning or saving assignments is to `commit` (or `push`) the c
     <p>While I back this server up on a regular basis, I cannot guarantee that I'll have the ability to restore up-to-the-minute data for your work.</p>
     <p>Remember: to err is human; to back up your work is divine.</p>
 </div>
-
-## Python basics
-
