@@ -1,4 +1,4 @@
-# Week 0, Worksheet 1: "Cloning" a repository
+# Worksheet 0.0.1: "Cloning" a repository
  
 In this activity, we'll download this week's entire packet of files. 
 

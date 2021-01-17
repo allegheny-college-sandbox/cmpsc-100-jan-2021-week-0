@@ -1,4 +1,4 @@
-# Week 0, Worksheet 0: Securing your GitHub account
+# Worksheet 0.0.0: Securing your GitHub account
 
 In this activity, we'll secure your GitHub account using an SSH key.
 
