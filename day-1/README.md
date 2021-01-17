@@ -1,4 +1,4 @@
-# CMPSC 100: Jan 2021, Week 0: Day 1
+# CMPSC 100: Jan 2021, Week 0: Day 0
 
 * Distributed: 19 January, 2021
 * Due: 24 January, 2021
@@ -123,13 +123,13 @@ Click the images below the headers to launch videos.
 
 ### Worksheets and activities
 
-* [Week 0 - Worksheet 0 - Securing your GitHub account](platforms/week-0-worksheet-0.md)
-* [Week 0 - Worksheet 1 - "Cloning" a repository](week-0-worksheet-1.md)
-* [Week 0 - Worksheet 2 - Terminal commands](platforms/week-0-worksheet-2.ipynb)
-* [Week 0 - Worksheet 3 - Markdown](platforms/week-0-worksheet-3.ipynb)
-  * [Week 0 - Worksheet 3 - Markdown file](platforms/week-0-worksheet-3.md)
-* [Week 0 - Worksheet 4 - GatorGrader](platforms/week-0-worksheet-4.ipynb)
-* [Week 0 - Worksheet 5 - "Committing" to a repository](platforms/week-0-worksheet-5.ipynb)
+* [Week 0 - Worksheet 0 - Securing your GitHub account](platforms/0_week-0-worksheet-ssh-keys.md)
+* [Week 0 - Worksheet 1 - "Cloning" a repository](platforms/1_week-0-worksheet-github-clone.md)
+* [Week 0 - Worksheet 2 - Terminal commands](platforms/2_week-0-worksheet-basic-terminal.ipynb)
+* [Week 0 - Worksheet 3 - Markdown](platforms/3_week-0-worksheet-markdown.ipynb)
+  * [Week 0 - Worksheet 3 - Markdown file](platforms/3a_week-0-worksheet-markdown.md)
+* [Week 0 - Worksheet 4 - GatorGrader](platforms/4_week-0-worksheet-gatorgrader.ipynb)
+* [Week 0 - Worksheet 5 - "Committing" to a repository](platforms/5_week-0-worksheet-github-push.ipynb)
 
 ### Final activities
 
@@ -147,7 +147,7 @@ In 2021 a professor attempted to boggle their students' minds by sending them a 
 
 It is hidden somewhere in the `/mansion`, but it is up to _you_ to find and `claim` it.
 
-* [Final activity: _The Maltese Python_](platforms/week-0-day-1-final-activity-0.ipynb)
+* [Final activity: _The Maltese Python_](platforms/6_week-0-platforms-final-activity.ipynb)
 
 #### Python basics: _The Lousy Lottery_
 
@@ -155,7 +155,7 @@ It is hidden somewhere in the `/mansion`, but it is up to _you_ to find and `cla
 CANADA PIC TRIP
 </p>
 
-* [Final activity: _The Lousy Lottery_](platforms/week-0-day-1-final-activity-1.ipynb)
+* [Final activity: _The Lousy Lottery_](basic-python/4_week-0-basic-python-final-activity.ipynb)
 
 ## The "terminal"
 
@@ -219,11 +219,11 @@ One of GitHub's services is something called GitHub Classroom -- a tool that all
 
 ### Activity 0: Securing your GitHub account
 
-* [Week 0 - Worksheet 0 - Securing your GitHub account](platforms/week-0-worksheet-0.md)
+* [Week 0 - Worksheet 0 - Securing your GitHub account](platforms/0_week-0-worksheet-ssh-keys.md)
 
 ### Activity 1: "Cloning" a repository
 
-* [Week 0 - Worksheet 1 - "Cloning" a repository](platforms/week-0-worksheet-1.md)
+* [Week 0 - Worksheet 1 - "Cloning" a repository](platforms/0_week-0-worksheet-github-clone.md)
 
 ## The terminal revisited
 
@@ -260,7 +260,7 @@ In this course, you may learn some more handy terminal commands. However, we gen
 
 The following worksheet provides some guided practice with these basic terminal commands.
 
-* [Week 0 - Worksheet 2 - Terminal commands](platforms/week-0-worksheet-2.ipynb)
+* [Week 0 - Worksheet 2 - Terminal commands](platforms/2_week-0-worksheet-basic-terminal.ipynb)
 
 ## Markdown
 
@@ -270,7 +270,7 @@ While we are the Department of Computer Science, a large majority of our work is
 
 The following worksheet introduces and provides an opportunity to practice with basic markdown.
 
-* [Week 0 - Worksheet 3 - Markdown](platforms/week-0-worksheet3.ipynb)
+* [Week 0 - Worksheet 3 - Markdown](platforms/3_week-0-worksheet-markdown.ipynb)
 
 ## Lab activity: _The Maltese Python_
 
@@ -290,13 +290,13 @@ Well, after this -- knowing that the first half of your work is submitted.
 
 GatorGrader is an automated tool that allows you to grade your assignments according to specifications that I set out in the [grading criteria](#Grading-criteria). The following worksheet teaches you how to run it:
 
-* [Week 0 - Worksheet 4 - GatorGrader](platforms/week-0-worksheet-4.ipynb)
+* [Week 0 - Worksheet 4 - GatorGrader](platforms/4_week-0-worksheet-gatorgrader.ipynb)
 
 ### GitHub: Part 1
 
 The final step in turning or saving assignments is to `commit` (or `push`) the content to GitHub. Complete the steps in this worksheet to learn how to complete the process:
 
-* [Week 0 - Worksheet 5 - "Committing" to a repository](platforms/week-0-worksheet-5.ipynb)
+* [Week 0 - Worksheet 5 - "Committing" to a repository](platforms/5_week-0-worksheet-github-push.ipynb)
 
 #### A strong warning
 
@@ -307,3 +307,4 @@ The final step in turning or saving assignments is to `commit` (or `push`) the c
 </div>
 
 ## Python basics
+
