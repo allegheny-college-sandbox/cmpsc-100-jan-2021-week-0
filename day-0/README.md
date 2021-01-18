@@ -30,24 +30,31 @@ For those who just want to get to work, consult the `Instructional Materials` se
   * [What is a "terminal"?](#What-is-a-"terminal"?)
   * [Using our terminal](#Using-our-terminal)
 * [GitHub: Part 0](#GitHub:-Part-0)
-  * [Worksheet 0: Securing your GitHub account](#Worksheet-0:-Securing-your-GitHub-account)
-  * [Worksheet 1: "Cloning" a repository](#Worksheet-1:-"Cloning"-a-repository)
+  * [0.0.0: Securing your GitHub account](#Worksheet-0:-Securing-your-GitHub-account)
+  * [0.0.1: "Cloning" a repository](#Worksheet-1:-"Cloning"-a-repository)
 * [The terminal revisited](#The-terminal-revisited)
-  * [Worksheet 2: Terminal commands](#Worksheet-2:-Terminal-commands)
+  * [0.0.2: Terminal commands](#Worksheet-2:-Terminal-commands)
 * [Markdown](#Markdown)
-  * [Worksheet 3: Basic markdown](#Worksheet-3:-Basic-markdown)
+  * [0.0.3: Basic markdown](#Worksheet-3:-Basic-markdown)
+  
+#### Final activity/activities: _The Maltese Python_ and submitting work
+
 * [Final activity: _The Maltese Python_](#Final-activity:-The-Maltese-Python)
 * [Take a break](#Take-a-break)
   * [GatorGrader](#GatorGrader)
-    * [Worksheet 4: Checking your work](#Worksheet-4:-Checking-your-work)
+    * [0.0.4: Checking your work](#Worksheet-4:-Checking-your-work)
   * [GitHub: Part 1](#GitHub:-Part-1)
-    * [Worksheet 5: "Committing" to a repository](#Worksheet-5:-"Committing"-to-a-repository)
+    * [0.0.5: "Committing" to a repository](#Worksheet-5:-"Committing"-to-a-repository)
 
 ### Python basics: values and variables
 
-* [Worksheet 0: Expressions](python-basics/0_week-0-worksheet-expressions.ipynb)
-* [Worksheet 1: Assignments](python-basics/1_week-0-worksheet-assignments.ipynb)
-* [Worksheet 2: Data types](python-basics/2_week-0-worksheet-data-types.ipynb)
+These worksheets contain the course-specific Python work we will pursue this semester and are annotated with the same amount of detail as the contextual information featured in the rest of this document. They aren't described anymore here; each contains individual detail.
+
+* [0.0.7: Expressions](python-basics/7_week-0-worksheet-expressions.ipynb)
+* [0.0.8: Assignments](python-basics/8_week-0-worksheet-assignments.ipynb)
+* [0.0.9: Data types](python-basics/9_week-0-worksheet-data-types.ipynb)
+
+#### Final activity: _The Lousy Lottery_
 
 * [Final activity: _The Lousy Lottery_](python-basics/)
 
@@ -126,13 +133,17 @@ Click the images below the headers to launch videos.
 
 ### Worksheets and activities
 
-* [Week 0 - Worksheet 0 - Securing your GitHub account](platforms/0_week-0-worksheet-ssh-keys.md)
-* [Week 0 - Worksheet 1 - "Cloning" a repository](platforms/1_week-0-worksheet-github-clone.md)
-* [Week 0 - Worksheet 2 - Terminal commands](platforms/2_week-0-worksheet-basic-terminal.ipynb)
-* [Week 0 - Worksheet 3 - Markdown](platforms/3_week-0-worksheet-markdown.ipynb)
-  * [Week 0 - Worksheet 3 - Markdown file](platforms/3a_week-0-worksheet-markdown.md)
-* [Week 0 - Worksheet 4 - GatorGrader](platforms/4_week-0-worksheet-gatorgrader.ipynb)
-* [Week 0 - Worksheet 5 - "Committing" to a repository](platforms/5_week-0-worksheet-github-push.ipynb)
+* [0.0.0: Securing your GitHub account](platforms/0_week-0-worksheet-ssh-keys.md)
+* [0.0.1: "Cloning" a repository](platforms/1_week-0-worksheet-github-clone.md)
+* [0.0.2: Terminal commands](platforms/2_week-0-worksheet-basic-terminal.ipynb)
+* [0.0.3: Markdown](platforms/3_week-0-worksheet-markdown.ipynb)
+  * [0.0.3a: Markdown file](platforms/3a_week-0-worksheet-markdown.md)
+* [0.0.4: GatorGrader](platforms/4_week-0-worksheet-gatorgrader.ipynb)
+* [0.0.5: Worksheet 5 - "Committing" to a repository](platforms/5_week-0-worksheet-github-push.ipynb)
+* [0.0.7: Expressions](python-basics/7_week-0-worksheet-expressions.ipynb)
+* [0.0.8: Assignments](python-basics/8_week-0-worksheet-assignments.ipynb)
+* [0.0.9:  Data types](python-basics/9_week-0-worksheet-data-types.ipynb)
+* [Final activity: _The Lousy Lottery_](python-basics/)
 
 ## The "terminal"
 
