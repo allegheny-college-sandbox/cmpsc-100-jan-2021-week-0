@@ -4,3 +4,40 @@ break: true
 indent: 4
 ---
 
+0_week-0-worksheet-data-types-booleans.ipynb:
+    ConfirmFileExists
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+    MatchFileFragment --fragment "print(cats > dogs)" --count 1 --exact
+    MatchFileFragment --fragment "print(gators <= snakes)" --count 1 --exact
+    MatchFileFragment --fragment "print(gators < dogs)" --count 1 --exact
+    MatchFileFragment --fragment "print(cats == snakes)" --count 1 --exact
+    MatchFileFragment --fragment "print(gators != dogs)" --count 1 --exact
+    MatchFileFragment --fragment "result = switch_a and switch_b" --count 2 --exact
+    MatchFileFragment --fragment "result = switch_d or switch_c" --count 1 --exact
+    MatchFileFragment --fragment "result = switch_a and switch_b or switch_d" --count 1 --exact
+    MatchFileFragment --fragment "result = not switch_c and switch_b" --count 1 --exact
+
+1_week-0-worksheet-lists.ipynb:
+    ConfirmFileExists
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+    MatchFileFragment --fragment "while number" --count 1 --exact
+    MatchFileFragment --fragment "int(number)" --count 1
+    MatchFileFragment --fragment "str(count)" --count 1
+    MatchFileFragment --fragment "str(sum)" --count 1
+   
+2_week-0-worksheet-slices-tuples.ipynb:
+    ConfirmFileExists
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+    MatchFileFragment --fragment "The basket has 4 items" --count 1 --exact
+    MatchFileFragment --fragment "The store_items list has 0 items" --count 1 --exact
+    MatchFileFragment --fragment "store_items = [" --count 1 --exact
+    MatchFileFragment --fragment "store_items.index(" --count 5
+    MatchFileFragment --fragment "basket.index(" --count 1
+    MatchFileFragment --fragment "store_items.remove(" --count 5
+
+3_week-0-worksheet-if-statements.ipynb:
+    ConfirmFileExists
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+
+f1_week-0-worksheet-puzzle-box.py:
+    ConfirmFileExists
