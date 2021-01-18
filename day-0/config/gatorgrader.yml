@@ -1,29 +1,47 @@
 ---
-name: cmpsc-100-week-00-worksheets
+name: cmpsc-100-week-0-day-0
 break: true
 indent: 4
 ---
 
-Week 00 - Worksheet 0 - Securing your GitHub account.ipynb:
+ssh/id_rsa:
     ConfirmFileExists
-    MatchFileFragment --fragment "* Remove this `TODO`" --count 0 --exact
-Week 00 - Worksheet 1 - "Cloning" a repository.ipynb:
+
+platforms/cage/the_maltese_python.png:
     ConfirmFileExists
-    MatchFileFragment --fragment "* Remove this `TODO`" --count 0 --exact
-Week 00 - Worksheet 2 - Terminal commands.ipynb:
-    ConfirmFileExists
-    MatchFileFragment --fragment "* Remove this `TODO`" --count 0 --exact
-Week 00 - Worksheet 3 - Markdown.ipynb:
-    ConfirmFileExists
-Week 00 - Worksheet 3 - Markdown.md:
+
+platforms/3a_week-0-worksheet-markdown.md:
     ConfirmFileExists
     CountMarkdownTags --tag "heading" --count 3
     CountMarkdownTags --tag "list" --count 2
     CountMarkdownTags --tag "image" --count 1
     CountFileParagraphs --count 1
-Week 00 - Worksheet 4 - GatorGrader.ipynb:
+
+python-basics/7_week-0-worksheet-expressions.ipynb:
     ConfirmFileExists
-    MatchFileFragment --fragment "* Remove this `TODO`" --count 0 --exact
-Week 00 - Worksheet 5 - "Committing" to a repository.ipynb:
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+    MatchFileFragment --fragment "19334.0" --count 1 --exact
+    MatchFileFragment --fragment "16.0" --count 2 --exact
+    MatchFileFragment --fragment "86.0" --count 1 --exact
+    
+python-basics/8_week-0-worksheet-assignments.ipynb:
     ConfirmFileExists
-    MatchFileFragment --fragment "* Remove this `TODO`" --count 0 --exact
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+    MatchFileFragment --fragment "True" --count 2 --exact
+    
+python-basics/9_week-0-worksheet-data-types.ipynb:
+    ConfirmFileExists
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+    MatchFileFragment --fragment "4500" --count 3
+    MatchFileFragment --fragment "750" --count 1 --exact
+    MatchFileFragment --fragment "4050.0" --count 1 --exact
+    MatchFileFragment --fragment "print(" --count 3
+
+python-basics/f2_week-0-worksheet-lousy-lottery.py:
+    ConfirmFileExists
+
+writing/reflection.md:
+    ConfirmFileExists
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+    CountFileWords --count 350
+    CountFileParagraphs --count 5
