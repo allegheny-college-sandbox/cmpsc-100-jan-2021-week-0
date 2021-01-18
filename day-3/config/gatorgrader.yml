@@ -1,0 +1,24 @@
+---
+name: cmpsc-100-week-04-lab
+break: true
+indent: 4
+---
+
+Week 04 - Lab - The Ballot Bonanza.ipynb:
+    ConfirmFileExists
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+    MatchFileFragment --fragment "for candidate in ballot" --count 1 --exact
+    MatchFileFragment --fragment "ballot[candidate]" --count 1
+    MatchFileFragment --fragment "while" --count 1
+    MatchFileFragment --fragment "input(" --count 1
+    MatchFileFragment --fragment "ballot = {}" --count 1
+
+reflection.md:
+    ConfirmFileExists
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+    CountFileWords --count 300
+    CountFileParagraphs --count 6
+
+MatchCommandFragment --command "python3 Week_04_-_Lab_-_The_Ballot_Bonanza.py < .inputs/.votes" --fragment "G. Wiz with 104 votes." --count 1 --exact
+MatchCommandFragment --command "python3 Week_04_-_Lab_-_The_Ballot_Bonanza.py < .inputs/.votes" --fragment "Prof. Luman received 1 votes." --count 1 --exact
+MatchCommandFragment --command "python3 Week_04_-_Lab_-_The_Ballot_Bonanza.py < .inputs/.votes" --fragment "Ulysses received 1 votes." --count 1 --exact
