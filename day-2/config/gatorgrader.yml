@@ -1,6 +1,7 @@
 ---
-name: cmpsc-100-week-0-day-1
+name: cmpsc-100-week-0-day-2
 break: true
 indent: 4
 ---
 
+MatchCommandFragment --command "python3 Week_02_-_Worksheet_2_-_Syntax_-_while_loops.py < .inputs/.worksheet-inputs" --fragment "The sum of these 6 numbers -> 108" --count 1 --exact

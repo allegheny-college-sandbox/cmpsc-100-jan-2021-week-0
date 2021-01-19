@@ -41,3 +41,5 @@ indent: 4
 
 f1_week-0-worksheet-puzzle-box.py:
     ConfirmFileExists
+
+MatchCommandFragment --command "f1_week-0-worksheet-puzzle-box.py" --fragment "🎉🎉🎉You've opened the puzzle box!🎉🎉🎉" --count 1 --exact
