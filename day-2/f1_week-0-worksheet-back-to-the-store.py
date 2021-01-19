@@ -32,5 +32,15 @@ store_inventory = {
 }
 
 tax = .08
+total = 0
 
-# TODO: Finish the task according to the accompanying worksheet
+# TODO: Iterate over each item in the shopping list and
+#       1. Add the price of the item to total
+#       2. Subtract 1 from the store inventory
+    
+print("Subtotal:",total)
+print("Total:",total + total * tax)
+
+# TODO: Iterate over the inventory and print the new 
+#       quantities remaining (should come out to
+#       original -- see above -- minus 1).

@@ -4,4 +4,20 @@ break: true
 indent: 4
 ---
 
-MatchCommandFragment --command "python3 Week_02_-_Worksheet_2_-_Syntax_-_while_loops.py < .inputs/.worksheet-inputs" --fragment "The sum of these 6 numbers -> 108" --count 1 --exact
+0_week-0-worksheet-while-loops.ipynb:
+    ConfirmFileExists
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+    MatchFileFragment --fragment "while number" --count 1 --exact
+    MatchFileFragment --fragment "int(number)" --count 1
+    MatchFileFragment --fragment "str(count)" --count 1
+    MatchFileFragment --fragment "str(sum)" --count 1
+
+1_week-worksheet-for-loops.ipynb:
+    ConfirmFileExists
+    MatchFileFragment --fragment "TODO" --count 0 --exact
+    MatchFileFragment --fragment "well_production = [1440, 1750, 1230, 980, 1900, 1475, 730]" --count 1 --exact
+    MatchFileFragment --fragment "for day in well_production" --count 1 --exact
+    MatchFileFragment --fragment "for name in cat_names" --count 4 --exact
+
+MatchCommandFragment --command "python3 1_week-worksheet-for-loops.py < .inputs/.worksheet-inputs" --fragment "You have a below average well" --count 1 --exact
+MatchCommandFragment --command "python3 0_week-0-worksheet-while-loops.py < .inputs/.worksheet-inputs" --fragment "The sum of these 6 numbers -> 108" --count 1 --exact
